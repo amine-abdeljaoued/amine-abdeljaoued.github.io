@@ -9,56 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- M.S. in Computational Biology and Quantitative Genetics - **Harvard University**, 2023
+- B.S. in Mathematics & Computer Science with a minor in Biology - **Ecole Polytechnique**, 2021
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Data Science & AI, - **Moderna**, Cambridge, MA 
+    - Associate Scientist (Apr 2024–Present)
+    - Sr. Research Associate (Jul 2023–Apr 2024)
+    - Intern (Jun 2022–Jun 2023)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+-	Research Assistant - **Harvard Medical School** (Oct 2021–May 2022), Boston, MA
+    - Single-cell RNA-seq analysis and method development for cancer immunology
+
+
+-	Computer Vision Research Intern - **University of Bristol** (Feb 2021–Mar 2021)
+    - Deep learning interpolation for multicolour fluorescence microscopy videos (Bachelor thesis with Carazo Salas lab)
+- Bioinformatics Research Assistant - **Centre national de la recherche scientifique**, **Amibio team (LIX)** (June 2020–Dec 2020), France; continuation of prior research and software development for the method
+    - Sampling RNA alignments to assess evolutionary significance of substructures
+-	Software Engineer Intern - **Microsoft** (Jun 2019–Jul 2019), Issy-les-Moulineaux, France
+    - Anomaly detection on IoT time series using Azure Anomaly Detector; explored AI Builder integration
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
