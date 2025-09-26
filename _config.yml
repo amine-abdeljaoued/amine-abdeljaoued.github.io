@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Amine Abdeljaoued"
+title                    : "Amine Abdeljaoued's Website"
 title_separator          : "-"
 name                     : &name "Amine Abdeljaoued"
 description              : &description "Amine Abdeljaoued's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
