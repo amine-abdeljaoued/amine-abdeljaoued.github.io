@@ -4,7 +4,7 @@ date: 2025-10-06
 permalink: /posts/2025/black-box-vs-explicit-biological-modelling/
 tags:
   - Machine Learning for Biology
-  - Biological sequence design
+  - Biological Sequence Design
   - Black-box models
   - Mechanistic models
   - RNA Optimization
