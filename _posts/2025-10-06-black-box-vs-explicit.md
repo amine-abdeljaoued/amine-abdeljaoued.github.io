@@ -1,5 +1,5 @@
 ---
-title: 'Choosing Your Optimization Strategy for Biological Sequence Design—Black-Box Learning vs Explicit Rules'
+title: 'Choosing your Optimization Strategy for Biological Sequence Design—Black-Box Learning vs Explicit Rules'
 date: 2025-10-06
 permalink: /posts/2025/black-box-vs-explicit/
 tags:
