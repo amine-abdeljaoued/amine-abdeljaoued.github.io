@@ -17,6 +17,7 @@ redirect_from:
 ## Experience
 
 - Data Science & AI, - **Moderna**, Cambridge, MA 
+    - Conducting research at the intersection of Machine Learning and Genomics. I also work on developing Computer Vision methods and contribute to Protein Engineering projects.
     - Associate Scientist (Apr 2024–Present)
     - Sr. Research Associate (Jul 2023–Apr 2024)
     - Intern (Jun 2022–Jun 2023)
