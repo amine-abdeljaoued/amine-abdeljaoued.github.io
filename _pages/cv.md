@@ -18,9 +18,7 @@ redirect_from:
 
 - Data Science & AI, - **Moderna**, Cambridge, MA 
     - Conducting research at the intersection of Machine Learning and Genomics. I also work on developing Computer Vision methods and contribute to Protein Engineering projects.
-    - Associate Scientist (Apr 2024–Present)
-    - Sr. Research Associate (Jul 2023–Apr 2024)
-    - Intern (Jun 2022–Jun 2023)
+    - Scientist (Oct 2025-Present), Associate Scientist (Apr 2024–Oct 2025), Sr. Research Associate (Jul 2023–Apr 2024), Intern (Jun 2022–Jun 2023)
 
 -	Research Assistant - **Harvard Medical School** (Oct 2021–May 2022), Boston, MA
     - Single-cell RNA-seq analysis and method development for cancer immunology
