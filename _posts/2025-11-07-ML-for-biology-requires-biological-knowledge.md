@@ -18,7 +18,7 @@ tags:
 
 # Introduction
 
-Real progress in ML for biology comes from models grounded in biological reality: how experiments work, how data are produced, and the biological mechanisms the readout reflects. That is the difference between a technically impressive model and one that is pertinent, robust, and can inform decisions and guide the next experiments.
+Impact in applying Machine Learning for biology comes from models grounded in biological reality: how experiments work, how data are produced, and the biological mechanisms the readout reflects. That is the difference between a technically impressive model and one that is pertinent, robust, and can inform decisions and guide the next experiments.
 
 In my day‑to‑day work on mRNA and protein design, the wins have come from pairing modeling skills with practical biology: understanding assays, making preprocessing choices that reflect the experiment, and picking model architectures that match the mechanisms I’m trying to capture. After that, communicating results with expectations set by the problem’s biological complexity and the variability of the measurements. 
 
