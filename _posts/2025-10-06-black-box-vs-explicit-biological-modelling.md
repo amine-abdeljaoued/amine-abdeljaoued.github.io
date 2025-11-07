@@ -12,7 +12,7 @@ tags:
 
 {% include toc %}
 <br />
-# **I. Introduction: The Two-Layer Challenge**
+# I. Introduction: The Two-Layer Challenge
 
 When establishing computational approaches to design biological sequences, one often faces two fundamental choices. How to predict the sequence properties you care about, and how to search the vast sequence space for candidates that are optimal with respect to these properties. 
 
@@ -24,7 +24,7 @@ After getting property prediction models, the second challenge is to navigate th
 
 In the remainder of this article, I unpack these choices. Section II clarifies what “differentiable” really means in the context of biological sequence modelling, and why it matters. Section III dissects the choice of black-box models versus mechanistic models for Layer 1, property predictors. Section IV turns to Layer 2 and explores the tradeoffs between end-to-end differentiable optimization and sampling-based optimization. Finally, Section V summarizes the trade-offs into a decision guide.
 
-# **II.  Differentiability in Biological Context**
+# II.  Differentiability in Biological Context
 
 At its core, differentiability refers to the existence of derivatives (gradients) of functions with respect to its inputs. Consider a function $f: \mathbb{R}^{N \times V} \to \mathbb{R}$ that maps an input matrix  (e.g., a one hot encoded biological sequence) to a scalar output  (e.g., predicted property score). The function is differentiable at $X \in \mathbb{R}^{N \times V}$  if $\nabla f(X)$, the gradient of $f$ at $X$, exists. This gradient tells us how infinitesimal changes in each component $X_{i,j}$ affect the output. For example, in neural networks, $f$ is a composition of differentiable layers, enabling back-propagation to efficiently compute $\nabla f(X)$. In our case, biological sequences are fundamentally discrete: nucleotides or amino acids are categorical variables, not continuous numbers. To apply differentiable optimization methods, sequences are often encoded. A simple yet very used example is to one-hot-encode sequences, using in the above definition N as the sequence length and V as the vocabulary size (4 for DNA or RNA sequences). 
 
@@ -34,7 +34,7 @@ To avoid conflation, it is helpful to separate the pertinence of differentiabili
 - Property prediction: mechanistic models specify properties through explicit rules, black‑box models learn mappings from data. Either category may be differentiable or not.
 - Optimization strategy: end-to-end differentiable optimization methods require differentiable components by definition, sampling‑based methods treat the scorer as a black box and work regardless of differentiability.
 
-# **III. Layer 1: Property Prediction Models**
+# III. Layer 1: Property Prediction Models
 
 ## **A. Black-box Property Predictors**
 
@@ -58,7 +58,7 @@ However, these approaches face important constraints. Mechanistic models require
 
 Another drawback that can occur for both mechanistic and black-box models is that only differentiable implementations can be back‑propagated through. Non-differentiable models cannot be integrated into end-to-end differentiable optimization pipelines, limiting their compatibility with gradient-based design algorithms that require backpropagation through the property predictor.
 
-# **IV. Layer 2: Optimization Algorithms**
+# IV. Layer 2: Optimization Algorithms
 
 ## **A. End-to-end differentiable optimization routines**
 
@@ -77,7 +77,7 @@ Sampling-based optimization routines explore sequence space without gradients. T
 Because every move is hand-specified, these methods offer explicit control.  Biologists can embed hard constraints (such as specific sites to avoid) and design interpretable operators e.g., “swap synonymous codons”—that reflect known molecular rules. Their sampling nature naturally supports diverse exploration: populations, mutations and crossovers help escape the local minima that often trap gradient descent.  Finally, by depending only on a numerical reward, they can mix-and-match both differentiable and non-differentiable property predictors. 
 
 The trade-offs are real.  Hand-crafted moves give no guarantee of optimality; the search may never stumble on remote high-fitness subspaces. Performance is hyper-parameter sensitive: mutation rate, population size and reward weights can each tilt the outcome and usually require empirical tuning.  And because there is no convergence guarantee, it is hard to diagnose stagnation: a flat fitness curve might mean a global optimum, or that exploration got stuck on a plateau.  For reliable deployment, one often needs to run many seeds and monitor diversity metrics.
-# **V. Putting it all together: a Practical Decision Guide**
+# V. Putting it all together: a Practical Decision Guide
 
 Use the checklist below to decide which flavor of method fits your data, constraints and goals, and keep in mind that the two philosophies can always be mixed.
 
