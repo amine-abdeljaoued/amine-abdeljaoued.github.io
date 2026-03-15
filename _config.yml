@@ -189,6 +189,28 @@ exclude:
   - README
   - tmp
   - vendor
+  - _drafts/
+  - _site/
+  - _pages/archive-layout-with-content.md
+  - _pages/non-menu-page.md
+  - _pages/markdown.md
+  - _pages/terms.md
+  - markdown_generator/
+  - files/
+  - _pages/portfolio.html
+  - _pages/publications.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/talkmap.html
+  - _pages/talkmap_out.ipynb
+  - _pages/talkmap.ipynb
+  - _pages/talkmap.py
+  - _pages/portfolio/
+  - _pages/publications/
+  - _pages/talks/
+  - _pages/teaching/
+  - _pages/markdown_generator/
+  - _pages/files/
 keep_files:
   - .git
   - .svn
