@@ -21,3 +21,4 @@ Disallow: /talks/
 Disallow: /teaching/
 Disallow: /markdown_generator/
 Disallow: /files/
+Disallow: /genealogy/

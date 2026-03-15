@@ -1,0 +1,257 @@
+---
+layout: single
+title: "Genealogic Tree"
+permalink: /genealogy/
+---
+
+<script>
+const password = "AmineMarwen";
+function checkPassword(event) {
+  event.preventDefault();
+  const input = document.getElementById('password-input').value;
+  if (input === password) {
+    document.getElementById('protected-content').style.display = 'block';
+    document.getElementById('password-form').style.display = 'none';
+  } else {
+    alert('Incorrect password.');
+  }
+}
+</script>
+
+<div id="password-form" style="text-align:center;margin-top:50px;">
+  <form onsubmit="checkPassword(event)">
+    <label for="password-input">Enter password to view:</label><br>
+    <input type="password" id="password-input" autocomplete="off" style="margin:10px;" />
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<div id="protected-content" style="display:none; overflow-x:auto;">
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1070"
+     viewBox="0 0 1340 1070" font-family="sans-serif" font-size="11">
+<style>
+  .lbl  { font-size:11px; text-anchor:middle; dominant-baseline:middle; }
+  .line { stroke:#999; stroke-width:1.5; fill:none; }
+  .mar  { stroke:#f472b6; stroke-width:1.5; fill:none; stroke-dasharray:5,3; }
+</style>
+
+<!-- ═════════════ KHALED SIDE ═════════════ -->
+
+<!-- Gen4 yellow -->
+<rect x="10"  y="27"  width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="40" >Amor Abdeljaoued</text>
+<rect x="10"  y="83"  width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="96" >Bahriya Kouidhi</text>
+<rect x="10"  y="159" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="172">Ali Neji</text>
+<rect x="10"  y="215" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="228">Al Bechir Abdelmoumen</text>
+
+<!-- Gen3 purple -->
+<rect x="200" y="27"  width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="40" >Mohamed Abdeljaoued</text>
+<rect x="200" y="83"  width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="96" >Bchira Limam</text>
+<rect x="200" y="159" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="172">Bachir Naji</text>
+<rect x="200" y="215" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="228">Ourida Abdelmoumen</text>
+
+<!-- Gen2 blue -->
+<rect x="390" y="55"  width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="68" >Jounaidi Abdeljaoued</text>
+<rect x="390" y="187" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="200">Rachida Neji</text>
+
+<!-- Gen1 Col D -->
+<rect x="580" y="121" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="134">Khaled Abdeljaoued</text>
+<rect x="580" y="277" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="290">Nidhal Abdeljaoued</text>
+<rect x="580" y="357" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="370">Ines Abdeljaoued</text>
+
+<!-- Spouses Col E (same Y as sibling) -->
+<rect x="770" y="277" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="290">Henda Krichen</text>
+<rect x="770" y="357" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="370">Naceur Tej</text>
+
+<!-- Kids Col F centered on InesA(370): 347, 393 -->
+<rect x="960" y="334" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="347">Hassiba Tej</text>
+<rect x="960" y="380" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="393">Slim Tej</text>
+
+<!-- AMINE & MARWEN Col F -->
+<rect x="960" y="437" width="155" height="26" rx="5" fill="#16a34a" stroke="#14532d"/>
+<text class="lbl" x="1037" y="450" fill="white" font-weight="bold">Amine Abdeljaoued</text>
+<rect x="960" y="497" width="155" height="26" rx="5" fill="#16a34a" stroke="#14532d"/>
+<text class="lbl" x="1037" y="510" fill="white" font-weight="bold">Marwen Abdeljaoued</text>
+
+<!-- ═════════════ INES SIDE ═════════════ -->
+
+<!-- Gen4 yellow -->
+<rect x="10"  y="587" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="600">Aicha Kooli</text>
+<rect x="10"  y="643" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="656">Khadouja Nakti</text>
+<rect x="10"  y="727" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="740">Zneikha Lakhdar</text>
+<rect x="10"  y="783" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="796">Fatma Sghaier</text>
+
+<!-- Gen3 purple -->
+<rect x="200" y="587" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="600">Khelifa Jaidane</text>
+<rect x="200" y="643" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="656">Fatma Gaaloul</text>
+<rect x="200" y="727" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="740">Rchid Bouassida</text>
+<rect x="200" y="783" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="796">Beya Tekkeli</text>
+
+<!-- Gen2 blue -->
+<rect x="390" y="615" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="628">Salah Jaidane</text>
+<rect x="390" y="755" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="768">Fatma Bouassida</text>
+
+<!-- Gen1 Col D -->
+<rect x="580" y="685" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="698">Ines Jaidane</text>
+<rect x="580" y="857" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="870">Neila Jaidane</text>
+<rect x="580" y="957" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="970">Sandie Jaidane</text>
+
+<!-- Spouses Col E (same Y as sister) -->
+<rect x="770" y="857" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="870">Richard Czech</text>
+<rect x="770" y="957" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="970">Sami Malouche</text>
+
+<!-- Kids Col F centered on Neila(870): 847, 893 -->
+<rect x="960" y="834" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="847">Tony Czech</text>
+<rect x="960" y="880" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="893">Cindy Czech</text>
+
+<!-- Kids Col F centered on Sandie(970): 947, 993 -->
+<rect x="960" y="934" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="947">Slim Malouche</text>
+<rect x="960" y="980" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="993">Yasmine Malouche</text>
+
+<!-- Nina Col G — FIXED: full width box, correct center x -->
+<rect x="1155" y="934" width="155" height="26" rx="5" fill="#bbf7d0" stroke="#15803d"/>
+<text class="lbl" x="1232" y="947">Nina Malouche</text>
+
+<!-- ═════════════ LINES ═════════════ -->
+
+<!-- Gen4→Gen3 single lines Khaled side -->
+<line class="line" x1="165" y1="40"  x2="200" y2="40"/>
+<line class="line" x1="165" y1="96"  x2="200" y2="96"/>
+<line class="line" x1="165" y1="172" x2="200" y2="172"/>
+<line class="line" x1="165" y1="228" x2="200" y2="228"/>
+
+<!-- Gen3→Gen2 brackets Khaled side, juncX=375 -->
+<polyline class="line" points="355,40  375,40  375,96  355,96"/>
+<line     class="line" x1="375" y1="68"  x2="390" y2="68"/>
+<polyline class="line" points="355,172 375,172 375,228 355,228"/>
+<line     class="line" x1="375" y1="200" x2="390" y2="200"/>
+
+<!-- Gen2→Gen1 Khaled+siblings, juncX=565 -->
+<polyline class="line" points="545,68  565,68  565,200 545,200"/>
+<line class="line" x1="565" y1="134" x2="565" y2="370"/>
+<line class="line" x1="565" y1="134" x2="580" y2="134"/>
+<line class="line" x1="565" y1="290" x2="580" y2="290"/>
+<line class="line" x1="565" y1="370" x2="580" y2="370"/>
+
+<!-- Nidhal ↔ Henda marriage -->
+<line class="mar" x1="735" y1="290" x2="770" y2="290"/>
+
+<!-- InesA ↔ Naceur marriage -->
+<line class="mar" x1="735" y1="370" x2="770" y2="370"/>
+<!-- InesA+Naceur → kids, juncX=945 -->
+<line class="line" x1="925" y1="370" x2="945" y2="370"/>
+<line class="line" x1="945" y1="347" x2="945" y2="393"/>
+<line class="line" x1="945" y1="347" x2="960" y2="347"/>
+<line class="line" x1="945" y1="393" x2="960" y2="393"/>
+
+<!-- Khaled(134)+Ines(698) → Amine(450)+Marwen(510), juncX=755 -->
+<line class="line" x1="735" y1="134" x2="755" y2="134"/>
+<line class="line" x1="735" y1="698" x2="755" y2="698"/>
+<line class="line" x1="755" y1="134" x2="755" y2="698"/>
+<line class="line" x1="755" y1="450" x2="960" y2="450"/>
+<line class="line" x1="755" y1="510" x2="960" y2="510"/>
+<line class="line" x1="755" y1="450" x2="755" y2="510"/>
+<circle cx="755" cy="480" r="3" fill="#999"/>
+
+<!-- Gen4→Gen3 single lines Ines side -->
+<line class="line" x1="165" y1="600" x2="200" y2="600"/>
+<line class="line" x1="165" y1="656" x2="200" y2="656"/>
+<line class="line" x1="165" y1="740" x2="200" y2="740"/>
+<line class="line" x1="165" y1="796" x2="200" y2="796"/>
+
+<!-- Gen3→Gen2 brackets Ines side, juncX=375 -->
+<polyline class="line" points="355,600 375,600 375,656 355,656"/>
+<line     class="line" x1="375" y1="628" x2="390" y2="628"/>
+<polyline class="line" points="355,740 375,740 375,796 355,796"/>
+<line     class="line" x1="375" y1="768" x2="390" y2="768"/>
+
+<!-- Gen2→Gen1 Ines+sisters, juncX=565 -->
+<polyline class="line" points="545,628 565,628 565,768 545,768"/>
+<line class="line" x1="565" y1="698" x2="565" y2="970"/>
+<line class="line" x1="565" y1="698" x2="580" y2="698"/>
+<line class="line" x1="565" y1="870" x2="580" y2="870"/>
+<line class="line" x1="565" y1="970" x2="580" y2="970"/>
+
+<!-- Neila ↔ Richard marriage -->
+<line class="mar" x1="735" y1="870" x2="770" y2="870"/>
+<!-- Neila+Richard → Tony(847)+Cindy(893), juncX=945 -->
+<line class="line" x1="925" y1="870" x2="945" y2="870"/>
+<line class="line" x1="945" y1="847" x2="945" y2="893"/>
+<line class="line" x1="945" y1="847" x2="960" y2="847"/>
+<line class="line" x1="945" y1="893" x2="960" y2="893"/>
+
+<!-- Sandie ↔ Sami marriage -->
+<line class="mar" x1="735" y1="970" x2="770" y2="970"/>
+<!-- Sandie+Sami → SlimM(947)+Yasmine(993), juncX=945 -->
+<line class="line" x1="925" y1="970" x2="945" y2="970"/>
+<line class="line" x1="945" y1="947" x2="945" y2="993"/>
+<line class="line" x1="945" y1="947" x2="960" y2="947"/>
+<line class="line" x1="945" y1="993" x2="960" y2="993"/>
+
+<!-- Slim Malouche → Nina -->
+<line class="line" x1="1115" y1="947" x2="1155" y2="947"/>
+
+<!-- Divider -->
+<line stroke="#d1d5db" stroke-width="1" stroke-dasharray="6,4" x1="10" y1="555" x2="1320" y2="555"/>
+<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="549">Khaled Abdeljaoued family</text>
+<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="570">Ines Jaidane family</text>
+
+<!-- Column header labels -->
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="87"   y="14">Great-great-grandparents</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="277"  y="14">Great-grandparents</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="467"  y="14">Grandparents</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="657"  y="14">Parents / Aunts &amp; Uncles</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="847"  y="14">Spouses</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="1037" y="14">You / Cousins</text>
+<text font-size="9" fill="#cbd5e1" text-anchor="middle" x="1232" y="14">Next gen</text>
+
+</svg>
+
+<!-- Legend -->
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-family:sans-serif;font-size:11px;align-items:center;">
+  <span><span style="background:#fef9c3;border:1px solid #ca8a04;padding:1px 8px;border-radius:3px;">&nbsp;</span> Great-great-grandparents</span>
+  <span><span style="background:#ede9fe;border:1px solid #7c3aed;padding:1px 8px;border-radius:3px;">&nbsp;</span> Great-grandparents</span>
+  <span><span style="background:#dbeafe;border:1px solid #3b82f6;padding:1px 8px;border-radius:3px;">&nbsp;</span> Grandparents</span>
+  <span><span style="background:#bfdbfe;border:1px solid #1d4ed8;padding:1px 8px;border-radius:3px;">&nbsp;</span> Parents / Aunts &amp; Uncles</span>
+  <span><span style="background:#fce7f3;border:1px solid #db2777;padding:1px 8px;border-radius:3px;">&nbsp;</span> Spouses (in-laws)</span>
+  <span><span style="background:#dcfce7;border:1px solid #16a34a;padding:1px 8px;border-radius:3px;">&nbsp;</span> Cousins</span>
+  <span><span style="background:#16a34a;border:1px solid #14532d;padding:1px 8px;border-radius:3px;color:white;">&nbsp;You&nbsp;</span> Amine &amp; Marwen</span>
+  <span><span style="background:#bbf7d0;border:1px solid #15803d;padding:1px 8px;border-radius:3px;">&nbsp;</span> Next generation</span>
+  <span style="color:#db2777;letter-spacing:3px;">- - -</span> Married
+</div>
+</div>
