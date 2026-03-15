@@ -26,9 +26,9 @@ function checkPassword(event) {
   </form>
 </div>
 
-<div id="protected-content" style="display:none; overflow-x:auto;">
-<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1070"
-     viewBox="0 0 1340 1070" font-family="sans-serif" font-size="11">
+<div id="protected-content" style="display:none; overflow-x:auto; -webkit-overflow-scrolling:touch; max-width:100%;">
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1350"
+     viewBox="0 0 1340 1350" font-family="sans-serif" font-size="11">
 <style>
   .lbl  { font-size:11px; text-anchor:middle; dominant-baseline:middle; }
   .line { stroke:#999; stroke-width:1.5; fill:none; }
@@ -71,167 +71,198 @@ function checkPassword(event) {
 <rect x="580" y="357" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
 <text class="lbl" x="657" y="370">Ines Abdeljaoued</text>
 
-<!-- Spouses Col E (same Y as sibling) -->
+<!-- Spouses Col E -->
 <rect x="770" y="277" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
 <text class="lbl" x="847" y="290">Henda Krichen</text>
 <rect x="770" y="357" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
 <text class="lbl" x="847" y="370">Naceur Tej</text>
 
-<!-- Kids Col F centered on InesA(370): 347, 393 -->
+<!-- Kids Col F -->
 <rect x="960" y="334" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
 <text class="lbl" x="1037" y="347">Hassiba Tej</text>
 <rect x="960" y="380" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
 <text class="lbl" x="1037" y="393">Slim Tej</text>
 
-<!-- AMINE & MARWEN Col F -->
+<!-- AMINE & MARWEN -->
 <rect x="960" y="437" width="155" height="26" rx="5" fill="#16a34a" stroke="#14532d"/>
 <text class="lbl" x="1037" y="450" fill="white" font-weight="bold">Amine Abdeljaoued</text>
 <rect x="960" y="497" width="155" height="26" rx="5" fill="#16a34a" stroke="#14532d"/>
 <text class="lbl" x="1037" y="510" fill="white" font-weight="bold">Marwen Abdeljaoued</text>
 
 <!-- ═════════════ INES SIDE ═════════════ -->
-
-<!-- Gen4 yellow -->
-<rect x="10"  y="587" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
-<text class="lbl" x="87"  y="600">Aicha Kooli</text>
+<!-- Gen4 yellow — each couple: husband first (top), wife below -->
+<!-- Couple 1: Salah Jaidane + Aicha Kooli → Khelifa Jaidane -->
+<rect x="10"  y="607" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="620">Salah Jaidane</text>
 <rect x="10"  y="643" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
-<text class="lbl" x="87"  y="656">Khadouja Nakti</text>
-<rect x="10"  y="727" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
-<text class="lbl" x="87"  y="740">Zneikha Lakhdar</text>
-<rect x="10"  y="783" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
-<text class="lbl" x="87"  y="796">Fatma Sghaier</text>
+<text class="lbl" x="87"  y="656">Aicha Kooli</text>
 
-<!-- Gen3 purple -->
-<rect x="200" y="587" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
-<text class="lbl" x="277" y="600">Khelifa Jaidane</text>
-<rect x="200" y="643" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
-<text class="lbl" x="277" y="656">Fatma Gaaloul</text>
-<rect x="200" y="727" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
-<text class="lbl" x="277" y="740">Rchid Bouassida</text>
-<rect x="200" y="783" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
-<text class="lbl" x="277" y="796">Beya Tekkeli</text>
+<!-- Couple 2: Salah Gaaloul + Khadouja Nakti → Fatma Gaaloul -->
+<rect x="10"  y="689" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="702">Salah Gaaloul</text>
+<rect x="10"  y="725" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="738">Khadouja Nakti</text>
 
-<!-- Gen2 blue -->
-<rect x="390" y="615" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
-<text class="lbl" x="467" y="628">Salah Jaidane</text>
-<rect x="390" y="755" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
-<text class="lbl" x="467" y="768">Fatma Bouassida</text>
+<!-- Couple 3: Bechir Bouassida + Zneikha Lakhdar → Rchid Bouassida -->
+<rect x="10"  y="807" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="820">Bechir Bouassida</text>
+<rect x="10"  y="843" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="856">Zneikha Lakhdar</text>
 
-<!-- Gen1 Col D -->
-<rect x="580" y="685" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
-<text class="lbl" x="657" y="698">Ines Jaidane</text>
-<rect x="580" y="857" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
-<text class="lbl" x="657" y="870">Neila Jaidane</text>
-<rect x="580" y="957" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
-<text class="lbl" x="657" y="970">Sandie Jaidane</text>
+<!-- Couple 4: Mohamed Tekali + Fatma Sghaier → Beya Tekkeli -->
+<rect x="10"  y="889" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="902">Mohamed Tekali</text>
+<rect x="10"  y="925" width="155" height="26" rx="5" fill="#fef9c3" stroke="#ca8a04"/>
+<text class="lbl" x="87"  y="938">Fatma Sghaier</text>
 
-<!-- Spouses Col E (same Y as sister) -->
-<rect x="770" y="857" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
-<text class="lbl" x="847" y="870">Richard Czech</text>
-<rect x="770" y="957" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
-<text class="lbl" x="847" y="970">Sami Malouche</text>
+<!-- Gen3 purple — Ines side -->
+<!-- mid of couple1(620,656)=638, mid of couple2(702,738)=720 → Salah bracket center=679 -->
+<rect x="200" y="625" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="638">Khelifa Jaidane</text>
+<rect x="200" y="707" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="720">Fatma Gaaloul</text>
+<!-- mid of couple3(820,856)=838, mid of couple4(902,938)=920 → Fatma B bracket center=879 -->
+<rect x="200" y="825" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="838">Rchid Bouassida</text>
+<rect x="200" y="907" width="155" height="26" rx="5" fill="#ede9fe" stroke="#7c3aed"/>
+<text class="lbl" x="277" y="920">Beya Tekkeli</text>
 
-<!-- Kids Col F centered on Neila(870): 847, 893 -->
-<rect x="960" y="834" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
-<text class="lbl" x="1037" y="847">Tony Czech</text>
-<rect x="960" y="880" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
-<text class="lbl" x="1037" y="893">Cindy Czech</text>
+<!-- Gen2 blue — Ines side -->
+<!-- Salah Jaidane (grandpa): mid(638,720)=679 -->
+<rect x="390" y="666" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="679">Salah Jaidane</text>
+<!-- Fatma Bouassida: mid(838,920)=879 -->
+<rect x="390" y="866" width="155" height="26" rx="5" fill="#dbeafe" stroke="#3b82f6"/>
+<text class="lbl" x="467" y="879">Fatma Bouassida</text>
 
-<!-- Kids Col F centered on Sandie(970): 947, 993 -->
-<rect x="960" y="934" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
-<text class="lbl" x="1037" y="947">Slim Malouche</text>
-<rect x="960" y="980" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
-<text class="lbl" x="1037" y="993">Yasmine Malouche</text>
+<!-- Gen1 Col D — Ines side -->
+<!-- Ines Jaidane: mid(679,879)=779 -->
+<rect x="580" y="766" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="779">Ines Jaidane</text>
+<rect x="580" y="1000" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="1013">Neila Jaidane</text>
+<rect x="580" y="1100" width="155" height="26" rx="5" fill="#bfdbfe" stroke="#1d4ed8"/>
+<text class="lbl" x="657" y="1113">Sandie Jaidane</text>
 
-<!-- Nina Col G — FIXED: full width box, correct center x -->
-<rect x="1155" y="934" width="155" height="26" rx="5" fill="#bbf7d0" stroke="#15803d"/>
-<text class="lbl" x="1232" y="947">Nina Malouche</text>
+<!-- Spouses Col E — Ines side -->
+<rect x="770" y="1000" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="1013">Richard Czech</text>
+<rect x="770" y="1100" width="155" height="26" rx="5" fill="#fce7f3" stroke="#db2777"/>
+<text class="lbl" x="847" y="1113">Sami Malouche</text>
+
+<!-- Kids Col F — Neila centered: 990, 1036 -->
+<rect x="960" y="977" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="990">Tony Czech</text>
+<rect x="960" y="1023" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="1036">Cindy Czech</text>
+
+<!-- Kids Col F — Sandie centered: 1090, 1136 -->
+<rect x="960" y="1077" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="1090">Slim Malouche</text>
+<rect x="960" y="1123" width="155" height="26" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text class="lbl" x="1037" y="1136">Yasmine Malouche</text>
+
+<!-- Nina Col G -->
+<rect x="1155" y="1077" width="155" height="26" rx="5" fill="#bbf7d0" stroke="#15803d"/>
+<text class="lbl" x="1232" y="1090">Nina Malouche</text>
 
 <!-- ═════════════ LINES ═════════════ -->
 
-<!-- Gen4→Gen3 single lines Khaled side -->
+<!-- KHALED SIDE -->
+<!-- Gen4→Gen3 -->
 <line class="line" x1="165" y1="40"  x2="200" y2="40"/>
 <line class="line" x1="165" y1="96"  x2="200" y2="96"/>
 <line class="line" x1="165" y1="172" x2="200" y2="172"/>
 <line class="line" x1="165" y1="228" x2="200" y2="228"/>
 
-<!-- Gen3→Gen2 brackets Khaled side, juncX=375 -->
+<!-- Gen3→Gen2 brackets -->
 <polyline class="line" points="355,40  375,40  375,96  355,96"/>
 <line     class="line" x1="375" y1="68"  x2="390" y2="68"/>
 <polyline class="line" points="355,172 375,172 375,228 355,228"/>
 <line     class="line" x1="375" y1="200" x2="390" y2="200"/>
 
-<!-- Gen2→Gen1 Khaled+siblings, juncX=565 -->
+<!-- Gen2→Gen1 spine -->
 <polyline class="line" points="545,68  565,68  565,200 545,200"/>
 <line class="line" x1="565" y1="134" x2="565" y2="370"/>
 <line class="line" x1="565" y1="134" x2="580" y2="134"/>
 <line class="line" x1="565" y1="290" x2="580" y2="290"/>
 <line class="line" x1="565" y1="370" x2="580" y2="370"/>
 
-<!-- Nidhal ↔ Henda marriage -->
+<!-- Nidhal ↔ Henda -->
 <line class="mar" x1="735" y1="290" x2="770" y2="290"/>
 
-<!-- InesA ↔ Naceur marriage -->
+<!-- InesA ↔ Naceur → kids -->
 <line class="mar" x1="735" y1="370" x2="770" y2="370"/>
-<!-- InesA+Naceur → kids, juncX=945 -->
 <line class="line" x1="925" y1="370" x2="945" y2="370"/>
 <line class="line" x1="945" y1="347" x2="945" y2="393"/>
 <line class="line" x1="945" y1="347" x2="960" y2="347"/>
 <line class="line" x1="945" y1="393" x2="960" y2="393"/>
 
-<!-- Khaled(134)+Ines(698) → Amine(450)+Marwen(510), juncX=755 -->
+<!-- Khaled+InesJ → Amine+Marwen -->
 <line class="line" x1="735" y1="134" x2="755" y2="134"/>
-<line class="line" x1="735" y1="698" x2="755" y2="698"/>
-<line class="line" x1="755" y1="134" x2="755" y2="698"/>
+<line class="line" x1="735" y1="779" x2="755" y2="779"/>
+<line class="line" x1="755" y1="134" x2="755" y2="779"/>
 <line class="line" x1="755" y1="450" x2="960" y2="450"/>
 <line class="line" x1="755" y1="510" x2="960" y2="510"/>
 <line class="line" x1="755" y1="450" x2="755" y2="510"/>
 <circle cx="755" cy="480" r="3" fill="#999"/>
 
-<!-- Gen4→Gen3 single lines Ines side -->
-<line class="line" x1="165" y1="600" x2="200" y2="600"/>
-<line class="line" x1="165" y1="656" x2="200" y2="656"/>
-<line class="line" x1="165" y1="740" x2="200" y2="740"/>
-<line class="line" x1="165" y1="796" x2="200" y2="796"/>
+<!-- INES SIDE -->
+<!-- Gen4 couple→Gen3: bracket each couple to their child -->
+<!-- Couple1(620,656) center=638 → Khelifa(638) -->
+<polyline class="line" points="165,620 185,620 185,656 165,656"/>
+<line class="line" x1="185" y1="638" x2="200" y2="638"/>
 
-<!-- Gen3→Gen2 brackets Ines side, juncX=375 -->
-<polyline class="line" points="355,600 375,600 375,656 355,656"/>
-<line     class="line" x1="375" y1="628" x2="390" y2="628"/>
-<polyline class="line" points="355,740 375,740 375,796 355,796"/>
-<line     class="line" x1="375" y1="768" x2="390" y2="768"/>
+<!-- Couple2(702,738) center=720 → Fatma Gaaloul(720) -->
+<polyline class="line" points="165,702 185,702 185,738 165,738"/>
+<line class="line" x1="185" y1="720" x2="200" y2="720"/>
 
-<!-- Gen2→Gen1 Ines+sisters, juncX=565 -->
-<polyline class="line" points="545,628 565,628 565,768 545,768"/>
-<line class="line" x1="565" y1="698" x2="565" y2="970"/>
-<line class="line" x1="565" y1="698" x2="580" y2="698"/>
-<line class="line" x1="565" y1="870" x2="580" y2="870"/>
-<line class="line" x1="565" y1="970" x2="580" y2="970"/>
+<!-- Khelifa(638)+FatmaG(720) → Salah Jaidane(679) -->
+<polyline class="line" points="355,638 375,638 375,720 355,720"/>
+<line class="line" x1="375" y1="679" x2="390" y2="679"/>
 
-<!-- Neila ↔ Richard marriage -->
-<line class="mar" x1="735" y1="870" x2="770" y2="870"/>
-<!-- Neila+Richard → Tony(847)+Cindy(893), juncX=945 -->
-<line class="line" x1="925" y1="870" x2="945" y2="870"/>
-<line class="line" x1="945" y1="847" x2="945" y2="893"/>
-<line class="line" x1="945" y1="847" x2="960" y2="847"/>
-<line class="line" x1="945" y1="893" x2="960" y2="893"/>
+<!-- Couple3(820,856) center=838 → Rchid(838) -->
+<polyline class="line" points="165,820 185,820 185,856 165,856"/>
+<line class="line" x1="185" y1="838" x2="200" y2="838"/>
 
-<!-- Sandie ↔ Sami marriage -->
-<line class="mar" x1="735" y1="970" x2="770" y2="970"/>
-<!-- Sandie+Sami → SlimM(947)+Yasmine(993), juncX=945 -->
-<line class="line" x1="925" y1="970" x2="945" y2="970"/>
-<line class="line" x1="945" y1="947" x2="945" y2="993"/>
-<line class="line" x1="945" y1="947" x2="960" y2="947"/>
-<line class="line" x1="945" y1="993" x2="960" y2="993"/>
+<!-- Couple4(902,938) center=920 → Beya(920) -->
+<polyline class="line" points="165,902 185,902 185,938 165,938"/>
+<line class="line" x1="185" y1="920" x2="200" y2="920"/>
+
+<!-- Rchid(838)+Beya(920) → Fatma Bouassida(879) -->
+<polyline class="line" points="355,838 375,838 375,920 355,920"/>
+<line class="line" x1="375" y1="879" x2="390" y2="879"/>
+
+<!-- Salah Jaidane(679)+FatmaB(879) → Ines Jaidane(779) -->
+<polyline class="line" points="545,679 565,679 565,879 545,879"/>
+<line class="line" x1="565" y1="779" x2="565" y2="1113"/>
+<line class="line" x1="565" y1="779" x2="580" y2="779"/>
+<line class="line" x1="565" y1="1013" x2="580" y2="1013"/>
+<line class="line" x1="565" y1="1113" x2="580" y2="1113"/>
+
+<!-- Neila ↔ Richard → Tony+Cindy -->
+<line class="mar" x1="735" y1="1013" x2="770" y2="1013"/>
+<line class="line" x1="925" y1="1013" x2="945" y2="1013"/>
+<line class="line" x1="945" y1="990"  x2="945" y2="1036"/>
+<line class="line" x1="945" y1="990"  x2="960" y2="990"/>
+<line class="line" x1="945" y1="1036" x2="960" y2="1036"/>
+
+<!-- Sandie ↔ Sami → SlimM+Yasmine -->
+<line class="mar" x1="735" y1="1113" x2="770" y2="1113"/>
+<line class="line" x1="925" y1="1113" x2="945" y2="1113"/>
+<line class="line" x1="945" y1="1090" x2="945" y2="1136"/>
+<line class="line" x1="945" y1="1090" x2="960" y2="1090"/>
+<line class="line" x1="945" y1="1136" x2="960" y2="1136"/>
 
 <!-- Slim Malouche → Nina -->
-<line class="line" x1="1115" y1="947" x2="1155" y2="947"/>
+<line class="line" x1="1115" y1="1090" x2="1155" y2="1090"/>
 
 <!-- Divider -->
-<line stroke="#d1d5db" stroke-width="1" stroke-dasharray="6,4" x1="10" y1="555" x2="1320" y2="555"/>
-<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="549">Khaled Abdeljaoued family</text>
-<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="570">Ines Jaidane family</text>
+<line stroke="#d1d5db" stroke-width="1" stroke-dasharray="6,4" x1="10" y1="575" x2="1320" y2="575"/>
+<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="569">Abdeljaoued family</text>
+<text font-size="10" fill="#9ca3af" font-style="italic" x="12" y="590">Jaidane family</text>
 
-<!-- Column header labels -->
+<!-- Column headers -->
 <text font-size="9" fill="#cbd5e1" text-anchor="middle" x="87"   y="14">Great-great-grandparents</text>
 <text font-size="9" fill="#cbd5e1" text-anchor="middle" x="277"  y="14">Great-grandparents</text>
 <text font-size="9" fill="#cbd5e1" text-anchor="middle" x="467"  y="14">Grandparents</text>
